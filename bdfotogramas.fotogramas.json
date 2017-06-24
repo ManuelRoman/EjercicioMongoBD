@@ -1,0 +1,80 @@
+{ 
+    "_id" : ObjectId("59061dc07cd65624c4751d85"), 
+    "archivo" : "chacal.jpg", 
+    "titPelicula" : "Chacal", 
+    "anyoEstreno" : NumberInt(1936), 
+    "director" : "Fred Zinnemann", 
+    "genero" : "Policiaco"
+}
+{ 
+    "_id" : ObjectId("59061e097cd65624c4751d86"), 
+    "archivo" : "ciudadano.jpg", 
+    "titPelicula" : "Un ciudadano ejemplar", 
+    "anyoEstreno" : NumberInt(2009), 
+    "director" : "F. Gary Gray", 
+    "genero" : "Intriga"
+}
+{ 
+    "_id" : ObjectId("59061e4b7cd65624c4751d87"), 
+    "archivo" : "diablo.jpg", 
+    "titPelicula" : "Diablo", 
+    "anyoEstreno" : NumberInt(2003), 
+    "director" : "F. Gary Gray", 
+    "genero" : "Accion"
+}
+{ 
+    "_id" : ObjectId("59061e967cd65624c4751d88"), 
+    "archivo" : "romper.jpg", 
+    "titPelicula" : "Romper stomper", 
+    "anyoEstreno" : NumberInt(1992), 
+    "director" : "Geoffrey Wright", 
+    "genero" : "Accion"
+}
+{ 
+    "_id" : ObjectId("59061edc7cd65624c4751d89"), 
+    "archivo" : "invicto3.jpg", 
+    "titPelicula" : "Invicto 3", 
+    "anyoEstreno" : NumberInt(2010), 
+    "director" : "Isaac Florentine", 
+    "genero" : "Accion"
+}
+{ 
+    "_id" : ObjectId("59061f167cd65624c4751d8a"), 
+    "archivo" : "scout.jpg", 
+    "titPelicula" : "El ultimo boy scout", 
+    "anyoEstreno" : NumberInt(1991), 
+    "director" : "Tony Scott", 
+    "genero" : "Accion"
+}
+{ 
+    "_id" : ObjectId("59061f597cd65624c4751d8b"), 
+    "archivo" : "tirador.jpg", 
+    "titPelicula" : "El tirador", 
+    "anyoEstreno" : NumberInt(2007), 
+    "director" : "Antoine Fuqua", 
+    "genero" : "Thriller"
+}
+{ 
+    "_id" : ObjectId("59061f967cd65624c4751d8c"), 
+    "archivo" : "vecinos.jpg", 
+    "titPelicula" : "Vecinos invasores", 
+    "anyoEstreno" : NumberInt(2006), 
+    "director" : "Tim Johnson", 
+    "genero" : "Comedia"
+}
+{ 
+    "_id" : ObjectId("59061fcd7cd65624c4751d8d"), 
+    "archivo" : "england.jpg", 
+    "titPelicula" : "This is England", 
+    "anyoEstreno" : NumberInt(2006), 
+    "director" : "Shane Meadows", 
+    "genero" : "Drama"
+}
+{ 
+    "_id" : ObjectId("590620067cd65624c4751d8e"), 
+    "archivo" : "gladiator.jpg", 
+    "titPelicula" : "Gladiator", 
+    "anyoEstreno" : NumberInt(2000), 
+    "director" : "Ridley Scott", 
+    "genero" : "Accion"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Ap1MongoDB</display-name>
+   <context-param>
+  	<param-name>nombreBD</param-name>
+  	<param-value>bdfotogramas</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>archivoLog4jProperties</param-name>
+  	<param-value>log4j.properties</param-value>
+  </context-param>
+  <servlet>
+    <description>Servlet insertar fotogramas</description>
+    <display-name>Insertar Fotogramas</display-name>
+    <servlet-name>InsertarFotogramas</servlet-name>
+    <servlet-class>ap1MongoDB.servlets.InsertarFotogramas</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsertarFotogramas</servlet-name>
+    <url-pattern>/insertarFotogramas</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Servlet listar todos los fotogramas</description>
+    <display-name>Listar Fotogramas</display-name>
+    <servlet-name>ListarFotogramas</servlet-name>
+    <servlet-class>ap1MongoDB.servlets.ListarFotogramas</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListarFotogramas</servlet-name>
+    <url-pattern>/listarFotogramas</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Servlet listar fotogramas/director</description>
+    <display-name>Listar Fotogramas/Director</display-name>
+    <servlet-name>ListarFotogramasDirector</servlet-name>
+    <servlet-class>ap1MongoDB.servlets.ListarFotogramasDirector</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListarFotogramasDirector</servlet-name>
+    <url-pattern>/listarFotogramasDirector</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Servlet listar sugerir director</description>
+    <display-name>Listar Sugerir/Director</display-name>
+    <servlet-name>SugerirDirector</servlet-name>
+    <servlet-class>ap1MongoDB.servlets.SugerirDirector</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SugerirDirector</servlet-name>
+    <url-pattern>/sugerirDirector</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
